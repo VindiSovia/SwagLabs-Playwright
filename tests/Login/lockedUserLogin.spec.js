@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test');
-const LoginPage = require('../../helpers/LoginPage');
+import { test, expect } from '@playwright/test';
+import { LoginPage } from '../../helpers/LoginPage.js';
 
 test('Locked out user cannot login', async ({ page }) => {
 
